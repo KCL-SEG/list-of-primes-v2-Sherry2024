@@ -23,5 +23,5 @@ def primes(number_of_primes):
         while len(list) < number_of_primes:
             if is_prime(num):
                 list.append(num)
-                num += 1
+            num += 1
         return list
